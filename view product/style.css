@@ -1,0 +1,160 @@
+:root {
+    --heading-color: rgb(73, 69, 69);
+    --sub-heading-color:#777777;
+    --main-color: #10847e;
+    --bg-color: #42b5b0;
+    --paragraph-font: 1.2rem;
+
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: var(--heading-color);
+  }
+  li {
+    list-style-type: none;
+  }
+  /* this is navbar */
+  .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 3px 3px 0 gray;
+}
+
+.input {
+    >input{
+        width: 46rem;
+        border: 2px solid #a7a7a7;
+        border-radius: 50px;
+        padding: 0.6rem;
+        background-color: #e8e6e6;
+        color: #777777;
+        padding-left: 2rem;
+    }
+} 
+.logo{
+    >a img{
+        height: 5rem;
+        width: 10rem;
+         cursor: pointer;
+    }  
+}
+.menu,ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(55 65 81);
+}
+.btn,ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(55 65 81);
+    >a{
+        >.btns{
+            background-color: #10847e;
+        }
+    }
+}
+ul li a:hover{
+    color: #42b5b0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+    gap: 2rem;
+}
+.front-back{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    >.front{
+        height: 7rem;
+        width: 12.3rem;
+        background-color:rgb(204, 204, 204);
+    }
+    >.back{
+        height: 7rem;
+        width: 12.3rem;
+        background-color:rgb(204, 204, 204);
+    }
+}
+.product-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    >.product_image{
+        height: 14rem;
+        width: 26rem;
+        background-color:rgb(204, 204, 204);
+        
+        >img{
+            height: 100%;
+            width: 100%;
+        }
+    
+    }
+}
+
+.cantent{
+    font-size: 1rem;
+    font-family:  sans-serif;
+    line-height:1.7rem;
+    margin-top: 2rem;
+    h1{
+        color: rgb(80, 80, 80);
+    }
+    p{
+        color: rgb(145, 143, 143);
+        line-height: 2rem;
+        span{
+            color: rgb(206, 6, 6);
+        }
+    }
+    button{
+        background-color:  rgb(3, 144, 144);
+        height: 2rem;
+        width: 6rem;
+        border: none;
+        border-radius:5px ;
+        cursor: pointer;
+        color: white;
+        font-size:15px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+       
+    }
+    span{
+        margin-left:10px;
+    }
+    #icon{
+        font-size: 20px;
+        background-color: rgb(232, 230, 230);
+        padding: 3px;
+        border-radius: 3px;
+        color: rgb(73, 73, 73);
+        margin-left: 5px;
+        cursor: pointer;
+    }
+}
