@@ -80,23 +80,8 @@ ul li a:hover{
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 11rem;
+    margin-top: 8rem;
     gap: 2rem;
-}
-.front-back{
-    display: flex;
-    justify-content: center;
-    gap: 0.8rem;
-    >.front{
-        height: 7rem;
-        width: 12.3rem;
-        background-color:rgb(204, 204, 204);
-    }
-    >.back{
-        height: 7rem;
-        width: 12.3rem;
-        background-color:rgb(204, 204, 204);
-    }
 }
 .product-main{
     display: flex;
@@ -119,7 +104,6 @@ ul li a:hover{
     font-size: 1rem;
     font-family:  sans-serif;
     line-height:1.7rem;
-    margin-top: 2rem;
     h1{
         color: rgb(80, 80, 80);
     }

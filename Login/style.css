@@ -136,6 +136,7 @@ ul li a:hover{
         font-size: 0.9rem;
         font-weight: 500;
         color: #777777;
+        cursor: pointer;
      }
      >input{
         margin-top: 0.7rem;

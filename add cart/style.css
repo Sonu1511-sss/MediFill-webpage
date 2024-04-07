@@ -94,6 +94,12 @@ ul li a:hover{
            width: 12rem;
            background-color: #c2c2c2;
            border-radius: 20px;
+         >img{
+            height: 100%;
+            width: 100%;
+           border-radius: 20px;
+
+         }
         }
         >.search-describe{
             display: flex;
